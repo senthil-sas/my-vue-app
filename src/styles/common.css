@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {font-family: "Open Sans", sans-serif}
+html{overflow-y: auto !important;}
+.fsize24{font-size: 24px}
+.fsize22{font-size: 22px}
+.fsize11{font-size: 11px}
+.fsize12{font-size: 12px !important}
+.fsize13{font-size: 13px !important}
+.fsize14{font-size: 14px !important;}
+.fsize16{font-size: 16px !important;}
+.cardBoxShadow{box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)!important;}
+.primaryColor{color:#282828}
+.secondaryColor{color:#56585a}
+.w-100{width: 100%}
+/* animated scrolbar */
+.updateForm::-webkit-scrollbar, .calcHeight::-webkit-scrollbar, .v-navigation-drawer__content::-webkit-scrollbar, .allTasks::-webkit-scrollbar{
+    width: 4px;
+}
+.updateForm::-webkit-scrollbar-thumb, .calcHeight::-webkit-scrollbar-thumb, .v-navigation-drawer__content::-webkit-scrollbar-thumb, .allTasks::-webkit-scrollbar-thumb{
+    --tw-bg-opacity: 5;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    border-radius: 100px;
+}
+.updateForm::-webkit-scrollbar-track, .calcHeight::-webkit-scrollbar-track, .v-navigation-drawer__content::-webkit-scrollbar-track, .allTasks::-webkit-scrollbar-track{
+    --tw-bg-opacity: 5;
+    background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+    --tw-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(216, 213, 213, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+/*  */
+
+.bg-lightgrey {background: hsl(0, 0%, 96%) !important}
+.progressBtn{background: rgb(219, 235, 255);border: 1px solid #e6e6e6;border-radius: 4px;transition: all .3s ease-in-out;padding: 4px 8px; min-width: 95px;}
+.openBtn{background: rgb(241, 241, 241);border: 1px solid #e6e6e6;border-radius: 4px;transition: all .3s ease-in-out;padding: 4px 8px;min-width: 95px;}
+.fixedBtn{background: #f1ffe9;border: 1px solid #f1ffe9;border-radius: 4px;transition: all .3s ease-in-out;padding: 4px 8px;min-width: 95px;}
+.user-select-none{user-select: none !important;}
